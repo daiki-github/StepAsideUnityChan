@@ -13,7 +13,7 @@ public class PrefabDestoroy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (unitychan.transform.position.z > this.transform.position.z){
+		if (unitychan.transform.position.z > this.transform.position.z+10){
 			GameObject.Destroy(this.gameObject);
 		}
 		
